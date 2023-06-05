@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/cart2.css">
+
+</head>
+
+<body>
+
+    <main>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="../index.html">Khải Hoàng</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Trang chủ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Về chúng tôi</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#!">Tất cả sản phẩm</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li><a class="dropdown-item" href="#!">Phổ biến</a></li>
+                                <li><a class="dropdown-item" href="#!">Mới cập nhật</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">Đăng Nhập</a></li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            <a href="pages/cart2.html">
+                                Cart
+                            </a>
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </main>
+    <section class="container">
+        <div class="form position-relative">
+
+            <div class="d-inline-flex p-2 ">
+                <h5><a href="../index.html"> Trở về</a></h5>
+            </div>
+            <div class="d-inline-flex p-2  ">
+                <h5>Giỏ hàng</h5>
+            </div>
+            <div class="products-card">
+                <div class="card mb-3" style="max-width: 95%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../img/iphone14promax.webp" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 card-product">
+                            <div class="card-body">
+                                <h5 class="card-title">IPHONE 14 PRO MAX 126GB</h5>
+                                <h6>26.000.000 đ</h6>
+
+                                <div class="quantity">
+                                    <button type="button" name="button">
+                                        -
+                                    </button>
+                                    <input type="text" name="name" value="1">
+                                    <button type="button" name="button">
+                                        +
+                                    </button>
+                                </div>
+
+                                <p class="card-text">Đây là chiếc Iphone xịn nhất hiện nay</p>
+                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 95%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../img/iphone14promax.webp" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 card-product">
+                            <div class="card-body">
+                                <h5 class="card-title">IPHONE 14 PRO MAX 126GB</h5>
+                                <h6>26.000.000 đ</h6>
+
+                                <div class="quantity">
+                                    <button type="button" name="button">
+                                        -
+                                    </button>
+                                    <input type="text" name="name" value="1">
+                                    <button type="button" name="button">
+                                        +
+                                    </button>
+                                </div>
+
+                                <p class="card-text">Đây là chiếc Iphone xịn nhất hiện nay</p>
+                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <script src="../js/cart.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

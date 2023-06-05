@@ -1,0 +1,43 @@
+.container{
+    text-align: center;
+    align-items: center;
+    padding: 0px;
+}
+.form{
+    background-color: #f8f9fa;
+    width: 50%;
+    height: 800px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+.title{
+    margin-left: -50px;
+    padding: 0px;
+}
+.card-product{
+    text-align: left;
+    
+}
+
+
+.products-card{
+    margin-left: 5%;
+
+}
+
+
+  .quantity input {
+    -webkit-appearance: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+  }
+   
+  
+   
+ 
